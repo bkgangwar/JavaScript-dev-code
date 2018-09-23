@@ -1,0 +1,27 @@
+DNS:
+
+The Domain Name System (DNS) is a distributed directory that resolves human-readable hostnames (e.g. www.yyyy.com) into machine-readable IP addresses like 68.23.34.107.It is just like the phone book for internet. Suppose, you know the person name but doesn't know about the person mobile number, you can refer your own phonebook to get person mobile number by searching from his name. It is surprising that we used DNS on daily basis whenever we want to access any website. It’s like your computer's GPS for the Internet.
+
+Computers and other network devices on the Internet use an IP address to map your request to the website you're trying to connect with. You don't have to keep your own address book of IP addresses. So, basically, you have to connect with a Domain Name Server (DNS) which manages a very huge database that maps domain name to IP addresses. Whenever you want to access any website or want to send an email, computer uses a DNS server to lookup the domain name that you want to access and DNS server resolves the domain name to the IP address. 
+
+When you type some URL into the address bar of your browser, it consists of following:
+1. The browser first checks the cache for a DNS record to find the corresponding IP address of that URL.
+
+2. DNS which is a database maintains the name of the website (URL) and the particular IP address it links to. Every single URL has a unique IP address associated with it. The main purpose of DNS is human-friendly navigation. Even you can access the site by putting the URL into the browser.
+
+3. Now, to check DNS record, the browser goes through the four caches:
+	(a)I check the browser cache as browser save the repository of DNS records for a fixed duration for websites which has been visited previously.
+	(b)Then, browser checks the OS cache. If it is unable to find in browser cache, the browser would make a system call (i.e. gethostname) to your computer OS to fetch the record.
+	(c)Then, It check the router cache that maintains its’ own cache of DNS records.
+	(d)Then, it checks the ISP cache. If all step would fail, the browser would move on to the ISP.ISP maintains its’ own DNS server which consists a cache of DNS records which the browser would check with the last hope of finding your requested URL.
+	If the requested URL is not found in the cache, ISP’s DNS server initiates a DNS query to find the IP address of the server that hosts given URL.
+
+4. Once the browser receives the correct IP address it will set up a connection with the server that matches IP address to transfer information. Browsers use internet protocols to build such connections such as TCP which is connection oriented protocol used for any type of HTTP request.
+
+5. Once, TCP connection is established for data transmission, The browser sends an HTTP request to the web server. If you want to submit form or enter some credentials by using post request, this request will also contain the information about identification (User-Agent header) and type of request.
+
+6. The server handles the request and sends back a response. It will assemble a response in a particular format like JSON, XML and HTML etc.
+
+7. The server response contains the web page information such as status code, compression type, cache control etc. that you requested .It also comprises with the status code.
+
+8. Finally, if status code is 200, the browser displays the HTML content .Then it will check the HTML tags and sends out GET requests for additional elements on the web page such as images, CSS style sheets, JavaScript files etc. and the page is loaded successfully.

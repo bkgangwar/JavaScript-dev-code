@@ -1,0 +1,46 @@
+Feature:
+1. ZIP (U. S. Postal) Code Formatter, The system needs a method that correctly formats a string to match either standard US ZIP Code (e.g., 12345) or US ZIP Code +4 format (e.g., 12345-6789). 
+2. The function accepts a string of digits of varying length as input and returns a formatted string.
+3. Standard US ZIP Code (e.g., 12345): If the input string is less than five digits, a zero-padded string of five digits is returned.
+4. An input string that is five digits long is returned unchanged. 
+5. US Zip Code +4 format (e.g., 12345-6789): An input string between six and nine digits returns a string with the first five digits of the input string, a hyphen, and a zero-padded string of four digits in the input string using the remaining digits. An input string that is ten digits long is returned unchanged. 
+
+Test Scenerios:
+
+Regex pattern is used to validate is : ^[0-9]{5}(?:-[0-9]{4})?$
+^           (position start at the beginning of the string).
+[0-9]{5}    (Match a digit with given digit exactly five times).
+(?:         (Grouping takes place but don't capture)
+-           (Match a literal '-').
+[0-9]{4}    (Match a digit with given digit exactly four times as we match previously).
+)           (Non-capturing group will end here).
+?           (Make the group optional).
+$           (Assert position at the end of the string).
+
+Example to validate US code:
+
+	//Pseudo code:
+
+	List<String> zipcodes = new ArrayList<String>();
+
+	String regex = "^[0-9]{5}(?:-[0-9]{4})?$";
+
+	Pattern pattern = Pattern.compile(regex);
+	 
+	for (let zip of zipcodes)
+	{
+		var zipcodematcher;
+		zipcodematcher = pattern.zipcodematcher(zip);
+		console.log(zipcodematcher.match());
+	}
+	 
+//US ZIP codes: Valid
+zips.add("12345");                        //true
+zips.add("12345-6789");                   //true
+
+//US ZIP codes: Invalid
+zips.add("123456");                       //false
+zips.add("1234");                         //false
+zips.add("12345-678");                    //false
+zips.add("12345-67890");                  //false
+

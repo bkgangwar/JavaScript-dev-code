@@ -1,0 +1,33 @@
+SDLC (Software Development Life Cycle): It basically aims to produce a high-quality software that meet or may exceed the customer expectation, works in appropriate manner and very much efficient in the current and planned information technology infrastructure and is inexpensive to maintain and cost-effective to enhance.
+
+There are various software development models to support SDLC
+	1. Waterfall Model.
+	2. Iterative and incremental development.
+	3. Spiral model.
+	4. Agile development model.
+	5. Prototype model.
+
+SDLC consists of various phases: Requirement and Analysis phase, Design phase:(high and low level design), Development phase, Testing phase, Deployment and Maintenance phase.
+
+In Testing Phase of SDLC, we have mainly focus on investigation and discovery. In this phase, developers most prioritize with the programming work met with the customer requirements within a Timeline. So, there is a proper test plan and QA team which accomplish the testing phase successfully.
+
+Kinds of testing in SDLC:
+1. Unit Testing: It is the testing of an individual unit or group of related units. It is often done by programmer by using sample input and observing its simply corresponding outputs.
+
+2. Integration Testing: Integration testing is testing in which a group of components are combined to produce output. The objective is to take unit tested components together and build a program structure that has been dictated by design. It can by approach by two types:(a) Top-down, (b) Bottom-up.
+
+3. Regression Testing:  Every time, some new module may be added leads to changes in our codebase. So, regression testing ensure that whole component works fine even after newly added module in the component.
+
+4. Functional Testing: In this testing we simply make to ensure that the programming code matches with the requirements given by the customer. It categorizes into the class of black box testing.
+
+5. System Testing: The testing is used to ensure that by putting the software in different environments (e.g., used in different Operating Systems) and should works correctly.
+
+6. Smoke Testing: This testing is done to make sure that software under testing is stable for further testing because testing initial pass is done to check if it did not catch the fire or smoked in the initial switch on.
+
+7. Alpha Testing: It is just like validation testing means acceptance testing which is done before the product is released to customers. It is taken care by QA.
+
+8.  Beta Testing: It is done by end user of the software product. This is release for the limited number of users for testing in real time environment. The objective of beta testing is to cover unexpected errors.
+
+9. Stress Testing: It is basically evaluate how system behaves under unfavorable conditions or environment. It is used to test beyond the limit of specification as user expected.
+
+10. Performance Testing: It is to check the speed and effectiveness of the system and to make sure it is produce results within a specified time as in performance requirements.

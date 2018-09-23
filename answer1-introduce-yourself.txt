@@ -1,0 +1,33 @@
+Hi,
+
+Thanks for giving me this opportunity to introduce myself.
+ 
+My name is Bhoodev Kumar and I belong to Bareilly District which is in Uttar Pradesh. I have successfully completed my B.Tech in Computer Science and Engineering (CSE) from National Institutes of Technology (NIT) Hamirpur, Himachal Pradesh with aggregating CGPI 6.7 out of 10. I have completed both 12th and 10th from same school, Jawahar Navodaya Vidyalaya, Bareilly and secured 86.4% and 85% respectively from CBSE board in which I secured 93.3% in PCM in 12th class with 97% marks in Mathematics.
+
+Coming to my professional Experience, I have total 1.7 years of experience as a developer in Software Project Development.
+After completion of my graduation, I got a job in Manipal Global Education Services (MaGE) as a Graduate Trainee and joined the same as a fresher where initially, I have enrolled in online training course in Internet WEB Technologies by Manipal Global Academy of Information Technology (MGAIT) and secured 100% marks in all the quizzes and got spot award by the General Manager of the Company. Thereafter, I worked in the organization as a Front End developer. Most of the websites in Manipal are built on Drupal, which is a PHP framework. My role and responsibilities in MaGE is web development and design, Enhancing & developing new features and worked on Drupal website theming by writing well designed, testable, efficient code using best software development practices and makes perfect UI.
+After one year, I got promoted as a Software Engineer in Manipal Global Education Services.
+
+After 1.3 years, I switched the job and worked in Infosys as a Consultant where my parent company for payroll is ThoughtDisrupt. In Infosys, I have work done for LifeTouch client and framework for this project I used is Angular 4 along with HTML5, CSS3, Bootstrap, Typescript etc. Lifetouch yearbook publisher offers quality elementary, middle, and high school yearbooks with innovative yearbook covers and yearbook designs. It provides a wide variety of enhancements to personalize and upgrade the yearbook, including: Zoom, Personalized Covers.
+ 
+I have completed summer training in 'CORE-JAVA' in Hewlett-Packard Company, Lucknow with B+ grade and summer internship in CCNA (Routing and switching) in Jetking Company, Chandigarh.
+
+About my Technical skills, My technical skills are HTML5, CSS3, JavaScript, JQuery, AJAX, Bootstrap, Angular 2 & 4 , Cross-browser compatibility, Media Query & Responsive Design, CSS pre-processor such as SASS,JSON, XML. My areas of interest are Web Designing with scalable performance, Data Structure & Algorithm, DBMS.I used SVN and GIT as Configuration Versioning Tools and have knowledge of operating system such as Windows-XP Professional/ 7 /8 /10, Linux.
+
+Coming to my achievements, as I already told you that I got Spot Award for scoring 100% marks in all quizzes of the Internet Web Technologies course in Manipal Global Academy of IT (MGAIT). I have secured All India Rank -23 in National Science Olympiad in 12th class. I have selected as a potential candidate in DAKSHANA Foundation, Lucknow. I have also passed all India UNESCO Information test conducted all over India by USI with aggregate 80%.
+
+In my family, we have four members including me. My father is a farmer and my mother who is a housewife. I have one elder Sister, which has been married already. My younger brother is currently pursuing his B.Tech + M.Tech (Dual Degree course of duration of five years) in Electronics and Communication Engineering from same college in which i have studied, i.e. NIT Hamirpur. He is studying in fourth year.
+
+Coming to my strength, I am hardworking person also flexible person who can adjust in any environment & I am good listener and have positive attitude, honest, self-motivated, optimistic and quick learner. As I am the human-being, I have my weakness too. My weakness is my little bit emotion my nature and hurt if someone cheated me.
+
+And coming to my hobbies, my hobbies are I love cooking, Internet Surfing, Travel new place, Listening to music in free time. About my linguistic abilities, I can read, write and speak Hindi, English and can read and write Malayalam up to some extent as I studied in JNV Mahe, Pondicherry for one year in 2006-07 in 9th class.
+
+My short term goal is to work and gain experience in an IT company in terms of enhancement of skills keeping myself updated and my long term goal is to see myself in responsible position of a team and works for the growth of the same organization.
+
+That's all about me. Thank you.
+ 
+
+
+ 
+
+

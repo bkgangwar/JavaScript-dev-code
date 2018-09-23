@@ -1,0 +1,16 @@
+When we have a bug in the codebase, It is basically depend upon the role that that we have, i.e. One might have developer role or tester (QA) role or manager role. Each role has their own and different responsibilities about to handle bugs.
+
+As I am the software developer, I will discuss my own responsibilities here from the developer prospective:
+1.	Find bug description and replicate the bug: first of all, find the bug description and try to isolate the actual problem. Analyze the bug what has been     changed enormously when bug reported first time. Which scenario we have worked on and where we are on that. Most of the bugs are resolved in this way.
+
+2.	Try to understand the bug: if we have a guess where the problem actually is, think deeply and take a good look at the codebase. Read many times and analyze it .Think about the worst effect too which can create unwanted problem in future. It is because sometime some side effect could affect badly. When you get information on a new bug, step away from the assumptions and try to interpret the issue looking at just the facts of the given requirement.  And never assume that you have replicate the bug from a UI prospective, this doesn’t mean that you understand the bug or very much close to fix the bug
+
+3.	Try in various ways to analyze the bug what goes wrong, where and why.
+
+4.	Fix the bug: Once you get a correct approach to resolve the bug, go ahead. But make sure that it doesn’t affect the other part of code scenarios because sometimes, resolving one bug may create other bug if we didn’t take care about it. To do this you need to work with a good version control system, such as GIT.
+
+5.	Verify: Run a debugger with setting some breakpoint and see how our data looks trying to find when it starts acting bad, to get a better idea of where things go wrong.
+
+6.	After resolving the bug, go to bug tracker (e.g. Bugzilla) and write the comment and actions taken by us so that either lead can review our code and also understood by QA  and close the bug from developer side.
+
+7.	QA/Lead feedback: After resolving the bug from our side, it may review by our lead and after code reviewed by lead pushed to QA environment. Finally, wait for the QA remarks .If it is sign off by QA, bug is resolved or else QA again will reassign to the concerned developer which is not a good sign for developer.
